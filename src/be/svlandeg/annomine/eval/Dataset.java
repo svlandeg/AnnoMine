@@ -21,11 +21,13 @@ import java.util.Set;
  */
 public class Dataset
 {
+	
+	// TODO: hard-coded paths are used because these evaluations are only run once for the performance assessment in the publication
 
 	private int trainingSize = 125;
 
-	public static String all_manual_annotations = "C:\\Users\\Sloffie\\Documents\\phd\\annomine-brhel\\dataset\\manual_func_annotations.txt";
-	public static String compDir = "C:\\Users\\Sloffie\\Documents\\phd\\annomine-brhel\\dataset\\sofie-annomine\\";
+	public static String all_manual_annotations = "C:\\Users\\Sofie\\Documents\\phd\\annomine-brhel\\dataset\\manual_func_annotations.txt";
+	public static String compDir = "C:\\Users\\Sofie\\Documents\\phd\\annomine-brhel\\dataset\\sofie-annomine\\";
 	
 	//public static String all_manual_annotations = "X:\\groups\\group_biocomp\\projects\\annomine\\brhel\\dataset\\manual_func_annotations.txt";
 	//public static String compDir = "X:\\groups\\group_biocomp\\projects\\annomine\\brhel\\dataset\\sofie-annomine\\";
