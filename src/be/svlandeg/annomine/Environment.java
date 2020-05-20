@@ -15,7 +15,7 @@ public class Environment
 	 */
 	public static String getHelpEmail()
 	{
-		return "solan AT psb DOT ugent DOT be";
+		return "This tool is not supported anymore";
 	}
 	
 	/**
